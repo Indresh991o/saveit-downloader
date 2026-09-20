@@ -2,8 +2,7 @@
 // Each HTML page sets `window.PLATFORM` before loading this file
 // (e.g. "instagram", "pinterest", "youtube", "facebook").
 
-const API_BASE = ""; // same-origin. Point this at your backend URL if hosted separately, e.g. "https://api.yourdomain.com"
-
+const API_BASE = "https://saveit-downloader-kaw0.onrender.com";
 function initDownloader() {
   const form = document.getElementById("dl-form");
   const input = document.getElementById("dl-url");
