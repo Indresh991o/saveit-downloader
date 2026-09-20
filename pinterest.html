@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pinterest Image & Video Downloader — SaveIt</title>
+<meta name="description" content="Pinterest pins ke images aur videos HD quality me free download karo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Save<span class="dot">It</span></a>
+    <nav class="platforms">
+      <a href="instagram.html">Instagram</a>
+      <a href="pinterest.html" class="active">Pinterest</a>
+      <a href="youtube.html">YouTube</a>
+      <a href="facebook.html">Facebook</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="kicker" style="color: var(--pin)">Pinterest Downloader</p>
+    <h1>Pinterest pins download karo, HD me</h1>
+    <p class="lede">Kisi bhi pin ka link paste karo — image ya video, original quality me save karo.</p>
+
+    <div class="downloader">
+      <form id="dl-form">
+        <input type="url" id="dl-url" placeholder="https://pin.it/... ya https://www.pinterest.com/pin/..." required>
+        <button type="submit" class="btn" id="dl-submit">Download</button>
+      </form>
+      <p class="status-line" id="dl-status"></p>
+      <div class="result-card" id="dl-result">
+        <img class="thumb" id="dl-thumb" alt="Thumbnail">
+        <div class="meta">
+          <p class="title" id="dl-title"></p>
+          <p class="sub" id="dl-sub"></p>
+        </div>
+        <a class="dl-link" id="dl-link" href="#">Save File</a>
+      </div>
+      <p class="disclaimer">Sirf public pins kaam karenge. Creator ki permission ke bina redistribute na kare.</p>
+    </div>
+  </section>
+
+  <div class="ad-slot">Ad slot — below downloader</div>
+
+  <section class="steps">
+    <h2>Kaise use kare</h2>
+    <ol>
+      <li><span class="num">01</span>Pinterest app/website me pin kholo.</li>
+      <li><span class="num">02</span>Share button se link copy karo.</li>
+      <li><span class="num">03</span>Yahan paste karke Download dabao.</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 SaveIt — sirf personal use ke liye.</span>
+    <span><a href="index.html">Home</a></span>
+  </div>
+</footer>
+
+<script>window.PLATFORM = "pinterest";</script>
+<script src="script.js"></script>
+</body>
+</html>

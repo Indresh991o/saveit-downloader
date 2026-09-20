@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Facebook Video Downloader — SaveIt</title>
+<meta name="description" content="Facebook public videos download karo — link paste karo, seedha save karo.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Save<span class="dot">It</span></a>
+    <nav class="platforms">
+      <a href="instagram.html">Instagram</a>
+      <a href="pinterest.html">Pinterest</a>
+      <a href="youtube.html">YouTube</a>
+      <a href="facebook.html" class="active">Facebook</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <p class="kicker" style="color: var(--fb)">Facebook Downloader</p>
+    <h1>Facebook video ka link paste karo</h1>
+    <p class="lede">Public Facebook videos ka direct download link nikaalo — SD ya HD quality me.</p>
+
+    <div class="downloader">
+      <form id="dl-form">
+        <input type="url" id="dl-url" placeholder="https://www.facebook.com/.../videos/..." required>
+        <button type="submit" class="btn" id="dl-submit">Download</button>
+      </form>
+      <p class="status-line" id="dl-status"></p>
+      <div class="result-card" id="dl-result">
+        <img class="thumb" id="dl-thumb" alt="Thumbnail">
+        <div class="meta">
+          <p class="title" id="dl-title"></p>
+          <p class="sub" id="dl-sub"></p>
+        </div>
+        <a class="dl-link" id="dl-link" href="#">Save File</a>
+      </div>
+      <p class="disclaimer">Sirf public videos kaam karenge, private/friends-only content nahi milega. Content owner ki permission ke bina redistribute na kare.</p>
+    </div>
+  </section>
+
+  <div class="ad-slot">Ad slot — below downloader</div>
+
+  <section class="steps">
+    <h2>Kaise use kare</h2>
+    <ol>
+      <li><span class="num">01</span>Facebook video ka link copy karo.</li>
+      <li><span class="num">02</span>Yahan paste karo.</li>
+      <li><span class="num">03</span>Download dabao aur quality choose karo.</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 SaveIt — sirf personal use ke liye.</span>
+    <span><a href="index.html">Home</a></span>
+  </div>
+</footer>
+
+<script>window.PLATFORM = "facebook";</script>
+<script src="script.js"></script>
+</body>
+</html>
